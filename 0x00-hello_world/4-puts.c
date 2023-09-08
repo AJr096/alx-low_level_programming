@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * This is the main function.
+ * main - Entry Point
  *
- * it prints a cool message
+ * Description: a C program that prints with the puts funct
  *
- * @return 0 indicating successful execution.
+ * Return: always 0 (success)
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
