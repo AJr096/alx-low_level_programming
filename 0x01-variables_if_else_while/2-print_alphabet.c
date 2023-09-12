@@ -10,15 +10,15 @@
 
 int main(void)
 {
-	chat alphab = 'a'
+	char alphab = 'a';
 
 	while (alphab <= 'z')
 
 	{
 		putchar(alphab);
 		alphab++;
-		putchar('\n')
 	}
+	putchar('\n')
 
 	return (0)
 }
