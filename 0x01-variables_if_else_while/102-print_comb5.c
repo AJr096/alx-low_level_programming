@@ -14,7 +14,7 @@ int main(void)
 
 	while (numb1 <= 99)
 	{
-		numb2 = numb2;
+		numb2 = numb1;
 		while (numb2 <= 99)
 		{
 			if (numb1 != numb2)
