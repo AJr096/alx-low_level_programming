@@ -19,9 +19,9 @@ int main(void)
 			summe += zweite;
 		}
 
-	unsigned long nächste = erste + zweite;
+	unsigned long nachste = erste + zweite;
 	erste = zweite;
-	zweite = nächste;
+	zweite = nachste;
 	}
 
 	printf("%lu\n", summe);
