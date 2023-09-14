@@ -3,7 +3,7 @@
 /**
  * _isalpha - a function taht checks if a letter is low or up case
  *
- * @c) takes input from anderes fonctionen
+ * @c: takes input from anderes fonctionen
  *
  * Return: 1 is truth else 0
  */
