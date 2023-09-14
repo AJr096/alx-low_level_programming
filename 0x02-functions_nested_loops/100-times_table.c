@@ -20,20 +20,20 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 
-				p = b * m;
+				r = b * m;
 
-				if (p <= 9)
+				if (r <= 9)
 					_putchar(' ');
-				if (p <= 99)
+				if (r <= 99)
 					_putchar(' ');
-				if (p >= 100)
+				if (r >= 100)
 				{
-					_putchar((p / 100) + 48);
-					_putchar((p / 10) % 10 + 48);
+					_putchar((r / 100) + 48);
+					_putchar((r / 10) % 10 + 48);
 				}
-				else if (p <= 99 && p >= 10)
-					_putchar((prod / 10) + 48);
-				_putchar((p % 10) + 48);
+				else if (r <= 99 && p >= 10)
+					_putchar((r / 10) + 48);
+				_putchar((r % 10) + 48);
 			}
 			_putchar('\n');
 		}
