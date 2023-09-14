@@ -11,6 +11,7 @@
 int main(void)
 {
 	unsigned long erste = 1, summe = 0, zweite = 2;
+	unsigned long nachste = erste + zweite;
 
 	while (zweite <= 4000000)
 	{
@@ -18,8 +19,6 @@ int main(void)
 		{
 			summe += zweite;
 		}
-
-		unsigned long nachste = erste + zweite;
 
 		erste = zweite;
 		zweite = nachste;
