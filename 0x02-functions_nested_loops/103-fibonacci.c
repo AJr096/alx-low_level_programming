@@ -11,10 +11,11 @@
 int main(void)
 {
 	unsigned long erste = 1, summe = 0, zweite = 2;
-	unsigned long nachste = erste + zweite;
 
 	while (zweite <= 4000000)
 	{
+		unsigned long nachste = erste + zweite;
+
 		if (zweite % 2 == 0)
 		{
 			summe += zweite;
