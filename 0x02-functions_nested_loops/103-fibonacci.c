@@ -14,14 +14,15 @@ int main(void)
 
 	while (zweite <= 4000000)
 	{
-		{
 		if (zweite % 2 == 0)
+		{
 			summe += zweite;
 		}
 
-	unsigned long nachste = erste + zweite;
-	erste = zweite;
-	zweite = nachste;
+		unsigned long nachste = erste + zweite;
+
+		erste = zweite;
+		zweite = nachste;
 	}
 
 	printf("%lu\n", summe);
