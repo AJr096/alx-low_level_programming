@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - entry please
+ *
+ * Description: prog that computs sum of multipls of 3 & 5 under 1024(exclu)
+ *
+ * Return: 0 success
+ */
+
 int main(void) 
 {
 	int i, sum;
