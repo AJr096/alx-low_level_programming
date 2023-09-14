@@ -12,10 +12,11 @@ int main(void)
 
 {
 	unsigned long st = 1, nd = 2, sm;
+	int i;
 
 	printf("%lu, %lu, ", st, nd);
 
-	for (int i = 3; i < 99; i++)
+	for (i = 3; i < 99; i++)
 	{
 		sm = st + nd;
 
