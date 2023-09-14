@@ -3,7 +3,7 @@
 /**
  * _abs - accentute sthe positive and elimenates teh negative
  *
- *  @,: takes integer type as input for funct
+ *  @n: takes integer type as input for funct
  *
  *  Return: always 0 succ
  */
