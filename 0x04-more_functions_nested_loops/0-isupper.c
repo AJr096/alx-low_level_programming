@@ -8,7 +8,7 @@
  * Return: 1 if upper, otherwise 0
  */
 
-int _iupper(int c)
+int _isupper(int c)
 {
 	if (c > 64 && c < 91)
 		return (1);
