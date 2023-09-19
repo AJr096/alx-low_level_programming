@@ -30,10 +30,12 @@ int main(void)
 			printf("%d", n);
 			}
 
-			if (n != 101)
+			if (n != 100)
 				printf(" ");
 			else
+			{
 				break;
+			}
 		}
 
 	return (0);
