@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - entry punk
@@ -33,7 +32,7 @@ int main(void)
 
 			if (n != 101)
 				printf(" ");
-			else 
+			else
 				break;
 		}
 
