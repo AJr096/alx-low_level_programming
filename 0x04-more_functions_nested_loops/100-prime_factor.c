@@ -30,6 +30,7 @@ int main(void)
 	}
 
 	printf("%lld", lpf);
+	putchar('\n');
 
 	return (0);
 }
