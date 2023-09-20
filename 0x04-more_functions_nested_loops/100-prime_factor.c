@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	long long num = 612852475143;
-	long long lpf = 0;
-	long long dvs = 2;
+	long num = 612852475143;
+	long lpf = 0;
+	long dvs = 2;
 
 	while (num > 1)
 	{
@@ -29,8 +29,7 @@ int main(void)
 	dvs++;
 	}
 
-	printf("%lld", lpf);
-	putchar('\n');
+	printf("%ld\n", lpf);
 
 	return (0);
 }
