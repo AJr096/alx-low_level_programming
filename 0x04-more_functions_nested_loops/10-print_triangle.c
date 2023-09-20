@@ -5,7 +5,7 @@
  *
  * @size: size input
  *
- * Return: nothing my guy
+ * Return: 0 i guess ?
  */
 
 void print_triangle(int size)
