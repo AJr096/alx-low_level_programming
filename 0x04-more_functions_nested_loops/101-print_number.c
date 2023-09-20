@@ -17,7 +17,7 @@ void print_number(int n)
 		m = -m;
 	}
 
-	if ((m / 10) >= 0)
+	if ((m / 10) > 0)
 	{
 		print_number(m / 10); /* magic */
 	}
