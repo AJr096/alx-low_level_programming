@@ -9,7 +9,7 @@
 void print_number(int n)
 {
 	unsigned int m
-	m = n /* if yie know ye know */
+	m = n; /* if yie know ye know */
 
 	if (n < 0)
 	{
