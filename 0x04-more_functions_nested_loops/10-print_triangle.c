@@ -5,7 +5,7 @@
  *
  * @size: size input
  *
- * Return: 0 i guess ?
+ * Return: none i guess ?
  */
 
 void print_triangle(int size)
@@ -18,16 +18,16 @@ void print_triangle(int size)
 		{
 			for (clm = 0; clm < size; clm++)
 			{
-				if ((clm + rw) < size)
+				if (clm < size - rw - 1)
 					_putchar(' ');
-
 				else
 					_putchar('#');
 			}
 			_putchar('\n');
 		}
 	}
-
 	else
+	{
 		_putchar('\n');
+	}
 }
