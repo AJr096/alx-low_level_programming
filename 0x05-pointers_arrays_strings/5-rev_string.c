@@ -15,7 +15,7 @@ void rev_string(char *s)
 
 	for (length = -1; s[length] != '\0'; length++);
 
-	for (count = 0; count < length / 2)
+	for (count = 0; count < length / 2; count++)
 	{
 		step = s[count];
 		s[count] = s[length - count];
