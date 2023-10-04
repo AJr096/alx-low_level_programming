@@ -13,12 +13,12 @@ void rev_string(char *s)
 	int length, count;
 	char step;
 
-	for (length = -1; s[length] != '\0'; ++length)
+	for (length = -1; s[length] != '\0'; length++)
 		;
 	for (count = 0; count < length / 2; count++)
 	{
 		step = s[count];
 		s[count] = s[length - count];
-		s[length - count] = step;
+		s[length - 1 - count] = step;
 	}
 }
